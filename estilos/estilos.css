@@ -1,0 +1,51 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.inicio {
+background-image: url("compu.jpg");
+background-size: cover;
+height: 100vh;
+background-position:center;
+color: white
+}
+.menu button span {
+color: #fff;
+font-size: 30px;
+}
+.menu div a {
+text-decoration:none;
+color: #fff;
+}
+.menu a span {
+font-size: 25px;
+}
+.menu a:hover {
+color: white;
+font-size: 17px;
+}
+.banner {
+height: 80vh;
+}
+.banner a {
+padding: 10px 40px;
+color: #fff;
+background: #1037FF;
+border-radius: 10px;
+text-decoration: none;
+}
+.banner a:hover {
+opacity: 0.8;
+}
+.banner h4{
+font-size: 30px;
+}
+@media screen and (max-width:768px) {
+.banner h1 {
+font-size: 35px;
+}
+.banner h4 {
+font-size: 20px;
+}
+}
